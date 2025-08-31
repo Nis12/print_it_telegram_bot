@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "printitbot"
 version = "0.1.0"
-description = "Печатальный бот"
+description = "This bot receives files from users and sends them for printing."
 authors = [
     {name = "Boris", email = "chechko_boris@mail.ru"}
 ]
