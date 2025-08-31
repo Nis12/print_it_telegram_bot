@@ -6,8 +6,8 @@ Registration in the chat with the approval of the administrator.
 
 Get a token for your bot from Telegram @BotFather. Insert it into the _TOKEN variable in file src/main.py
 
-Find out your telegram account ID. Insert it into the field _admin_id_key: 1234567890 in src/config.py, 
-(1234567890 - as example).
+Find out your telegram account ID. Insert it into the field _admin_id_key: 1234567890 in src/config.py 
+in **def _create_default_config(self)** method, (1234567890 - as example).
 
 ALLOWED_FORMATS = ['.pdf', '.docx', '.doc', '.rtf', '.txt', '.odt']
 
